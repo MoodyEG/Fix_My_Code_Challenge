@@ -15,7 +15,6 @@ class square():
                 self.width = self.height
             if "width" in kwargs.items() and "height" not in kwargs.items():
                 self.height = self.width
-        self.height = self.width
 
     def area_of_my_square(self):
         """ Area of the square """
